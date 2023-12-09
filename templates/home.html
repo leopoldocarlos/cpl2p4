@@ -1,0 +1,7 @@
+<!-- templates/home.html -->
+<h1>Página de inicio del tablero de mensajes</h1>
+<ul>
+    {% for post in post_list %}
+    <li>{{ post.text }}</li>
+    {% endfor %}
+</ul>
